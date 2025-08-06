@@ -6,8 +6,8 @@ btn.addEventListener('click', () => {
 
   // Cambia el texto del botón
   if (body.classList.contains('dark-mode')) {
-    btn.textContent = 'Modo claro';
+    btn.textContent = '☀️ Modo claro';
   } else {
-    btn.textContent = 'Modo oscuro';
+    btn.textContent = '🌓 Modo oscuro';
   }
 });
